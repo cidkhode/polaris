@@ -1,6 +1,6 @@
 {
   "name": "@polaris/core",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Has all the core components that our applications might need.",
   "main": "dist/index.js",
   "module": "dist/index.js",
@@ -15,6 +15,9 @@
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
+  "files": [
+    "dist"
+  ],
   "peerDependencies": {
     "react": "^16.0.0",
     "react-dom": "^16.0.0"
