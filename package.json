@@ -1,5 +1,5 @@
 {
-  "name": "@polaris",
+  "name": "polaris",
   "private": true,
   "version": "1.0.0",
   "description": "Monorepo for Versana UI components",
