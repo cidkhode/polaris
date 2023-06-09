@@ -10,6 +10,6 @@
     "jsx": "react",
     "declaration": true,
     "composite": true,
-    "esModuleInterop": true,
+    "esModuleInterop": true
   }
 }
