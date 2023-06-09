@@ -1,6 +1,6 @@
 {
   "name": "polaris",
-  "private": false,
+  "private": true,
   "version": "1.0.0",
   "description": "Monorepo for Versana UI components",
   "main": "index.js",
@@ -9,6 +9,10 @@
   "license": "MIT",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
+  },
+  "scripts": {
+    "install": "lerna exec -- yarn",
+    "buildAll": "lerna exec -- yarn build"
   },
   "workspaces": [
     "libs/*"
