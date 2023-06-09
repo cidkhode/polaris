@@ -1,6 +1,6 @@
 {
   "name": "@polaris/core",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Has all the core components that our applications might need.",
   "main": "dist/index.js",
   "module": "dist/index.js",
