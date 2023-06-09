@@ -7,6 +7,9 @@
   "repository": "https://github.com/cidkhode/polaris.git",
   "author": "Chidanand Khode",
   "license": "MIT",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "workspaces": [
     "libs/*"
   ],
