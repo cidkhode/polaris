@@ -3,8 +3,8 @@
   "compilerOptions": {
     "declaration": true,
     "outDir": "./dist",
-    "rootDir": "./src"
+    "rootDir": "../../libs"
   },
-  "include": ["src"],
+  "include": ["src", "../core/src/index.ts"],
   "exclude": ["node_modules", "dist"]
 }

@@ -1,6 +1,6 @@
 {
   "name": "@polaris/blocks",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Has all the block components that our applications might need.",
   "main": "dist/index.js",
   "module": "dist/index.js",
