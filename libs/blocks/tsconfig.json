@@ -5,6 +5,6 @@
     "outDir": "./dist",
     "rootDir": "../../libs"
   },
-  "include": ["src", "../core/src/index.ts"],
+  "include": ["src", "../core/src"],
   "exclude": ["node_modules", "dist"]
 }
