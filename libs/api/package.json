@@ -1,5 +1,5 @@
 {
   "name": "@polaris/api",
-  "version": "1.0.0",
+  "version": "1.0.5",
   "description": "Has all the API logic that our applications might need."
 }

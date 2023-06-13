@@ -1,5 +1,5 @@
 {
   "name": "@polaris/theme",
-  "version": "1.0.0",
+  "version": "1.0.5",
   "description": "Has all the theming logic that our applications might need."
 }

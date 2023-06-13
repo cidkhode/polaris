@@ -1,5 +1,5 @@
 {
   "name": "@polaris/pages",
-  "version": "1.0.0",
+  "version": "1.0.5",
   "description": "Has all the page components that our applications might need."
 }
