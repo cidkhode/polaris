@@ -1,15 +1,15 @@
 {
   "compilerOptions": {
-    "baseUrl": ".",
-    "paths": {
-      "@polaris/*": ["libs/*/src"]
-    },
-    "outDir": "dist",
+    "baseUrl": "./",
+    "outDir": "./dist",
     "module": "commonjs",
     "target": "es5",
     "jsx": "react",
     "declaration": true,
-    "composite": true,
-    "esModuleInterop": true
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "paths": {
+      "@polaris/*": ["../*/src/index.ts"]
+    },
   }
 }

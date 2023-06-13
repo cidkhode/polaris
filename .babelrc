@@ -1,0 +1,37 @@
+{
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "targets": {
+          "node": "current"
+        }
+      }
+    ],
+    "@babel/preset-react",
+    "@babel/preset-typescript"
+  ],
+  "plugins": [
+    [
+      "@babel/plugin-transform-runtime", {
+        "corejs": false,
+        "helpers": true,
+        "regenerator": true,
+        "useESModules": false
+      },
+      "module-resolver",
+      {
+        "root": ["."],
+        "alias": {
+          "@polaris/api": "./libs/api/src",
+          "@polaris/blocks": "./libs/blocks/src",
+          "@polaris/core": "./libs/core/src",
+          "@polaris/molecules": "./libs/molecules/src",
+          "@polaris/pages": "./libs/pages/src",
+          "@polaris/store": "./libs/store/src",
+          "@polaris/theme": "./libs/theme/src"
+        }
+      }
+    ]
+  ]
+}

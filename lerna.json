@@ -1,7 +1,15 @@
 {
   "version": "independent",
   "npmClient": "yarn",
+  "useWorkspaces": true,
   "packages": [
     "libs/*"
-  ]
+  ],
+  "command": {
+    "build": {
+      "concurrency": 4,
+      "npmClient": "npm",
+      "script": "build"
+    }
+  }
 }
